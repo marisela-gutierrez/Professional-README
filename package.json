@@ -1,0 +1,23 @@
+{
+  "name": "professional-readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marisela-gutierrez/Professional-README.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marisela-gutierrez/Professional-README/issues"
+  },
+  "homepage": "https://github.com/marisela-gutierrez/Professional-README#readme"
+}

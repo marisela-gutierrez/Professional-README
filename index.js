@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const generatePage = require('./utils/generateMarkdown');
+//const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -82,15 +82,56 @@ const questions = () => {
           return false;
         }
       }
-    }
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'Enter your GitHub Username (Required)',
+      validate: githubInput => {
+        if (githubInput) {
+          return true;
+        } else {
+          console.log('Please enter your GitHub username!');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Enter your email address (Required)',
+      validate: emailInput => {
+        if (emailInput) {
+          return true;
+        } else {
+          console.log('Please enter your email address!');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'confirm',
+      name: 'confirmLicense',
+      message: 'Would you like to add a license for your project?',
+      default: true
+    },
+    {
+      type: 'list',
+      name: 'listLicense',
+      message: 'Choose license',
+      choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+      when: ({ confirmLicense }) => confirmLicense
+    },
   ]);
 };
 
+
+questions();
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+//function init() {}
 
 // Function call to initialize app
-init();
+//init();
