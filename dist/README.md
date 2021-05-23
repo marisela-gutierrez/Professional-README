@@ -1,8 +1,8 @@
 
-  # Run Buddy Testing
+  # Run Buddy Test
   ![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
   ## Description 
-  Testingg
+  tst
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -14,7 +14,6 @@
   testing
   ## License
   [**MIT License**](https://choosealicense.com/licenses/mit/) - A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
-  ## Badges
   ## Contributing
   testing
   ## Tests
