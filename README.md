@@ -7,5 +7,5 @@ This application can quickly and easily generate a README file by using a comman
 * Javascript
 * Node.js
 
-Link to a walkthrough video demonstrating the functionality of the application.: [![readmevideo.png](https://i.postimg.cc/Gtmxt3D2/readmevideo.png)](https://postimg.cc/njNDwJ0b)(https://drive.google.com/file/d/1Ub7PYhLnP2kdKJzHFyD_FHSZcBbT0OXJ/preview)
+Link to a walkthrough video demonstrating the functionality of the application.: [![readmevideo.png](https://i.postimg.cc/Gtmxt3D2/readmevideo.png)](https://drive.google.com/file/d/1Ub7PYhLnP2kdKJzHFyD_FHSZcBbT0OXJ/preview)(https://drive.google.com/file/d/1Ub7PYhLnP2kdKJzHFyD_FHSZcBbT0OXJ/preview)
 
