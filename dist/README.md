@@ -1,8 +1,8 @@
 
   # Run Buddy Testing
-  [![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)]
+  ![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
   ## Description 
-  testing
+  Testingg
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -20,5 +20,5 @@
   ## Tests
   testing
   ## Questions
-  Please visit my [GitHub page](https://github.com/marisela-gutierrez).<br />marisela-gutierrez
+  Please visit my [GitHub page](https://github.com/marisela-gutierrez). marisela-gutierrez
   For any addtional questions, please email me [mari.gutierrez96@yahoo.com](mailto:mari.gutierrez96@yahoo.com)
